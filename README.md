@@ -2,6 +2,9 @@
 
 Aplicación móvil de e-commerce desarrollada con [Expo sdk 54](https://expo.dev) y React Native.
 
+<img width="1920" height="1440" alt="1" src="https://github.com/user-attachments/assets/4e845bc6-7d73-42f6-847f-1fc6257f24ce" />
+<img width="1920" height="1440" alt="2" src="https://github.com/user-attachments/assets/47e3761a-5c46-4e1a-8a11-436f169dd552" />
+
 ## Características principales
 
 - 📱 **Navegación con NativeTabs** - Implementa navegación nativa de pestañas usando [`expo-router native-tabs`](https://docs.expo.dev/router/advanced/native-tabs/)
