@@ -1,50 +1,33 @@
-# Welcome to your Expo app 👋
+# Magia Interna - E-commerce App 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicación móvil de e-commerce desarrollada con [Expo sdk 54](https://expo.dev) y React Native.
 
-## Get started
+## Características principales
 
-1. Install dependencies
+- 📱 **Navegación con NativeTabs** - Implementa navegación nativa de pestañas usando [`expo-router native-tabs`](https://docs.expo.dev/router/advanced/native-tabs/)
+- ✨ **Diseño Liquid Glass** - Aplicación del nuevo estilo visual de iOS 26 con efectos de vidrio líquido
 
-   ```bash
-   npm install
-   ```
+## Instalación y ejecución
 
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+1. Instalar dependencias:
 ```bash
-npm run reset-project
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Iniciar la aplicación:
+```bash
+npx expo start
+```
 
-## Learn more
+## Tecnologías utilizadas
 
-To learn more about developing your project with Expo, look at the following resources:
+- **Expo Router** con navegación basada en archivos
+- **NativeTabs** para navegación de pestañas nativa
+- **TypeScript** para desarrollo tipado
+- **Context API** para manejo de estado global
+- **Diseño Liquid Glass** (iOS 26)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Recursos
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- [Documentación de Expo](https://docs.expo.dev/)
+- [Guía de NativeTabs](https://docs.expo.dev/router/advanced/native-tabs/)

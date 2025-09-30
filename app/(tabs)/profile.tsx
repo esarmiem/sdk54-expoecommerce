@@ -49,12 +49,12 @@ export default function ProfileScreen() {
             <View style={styles.profileContent}>
               <View style={styles.avatarContainer}>
                 <View style={styles.avatar}>
-                  <ThemedText style={styles.avatarText}>MI</ThemedText>
+                  <ThemedText style={styles.avatarText}>ES</ThemedText>
                 </View>
               </View>
               <View style={styles.profileInfo}>
-                <ThemedText style={styles.profileName}>Usuario de Magia Interna</ThemedText>
-                <ThemedText style={styles.profileEmail}>usuario@email.com</ThemedText>
+                <ThemedText style={styles.profileName}>Elder Sarmiento</ThemedText>
+                <ThemedText style={styles.profileEmail}>elder@email.com</ThemedText>
                 <ThemedText style={styles.profileLevel}>Nivel Premium</ThemedText>
               </View>
             </View>
