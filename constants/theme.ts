@@ -6,29 +6,32 @@
 import { Platform } from 'react-native';
 
 const MagiaInternaPalette = {
-  primary: '#535347',
-  secondary: '#2B4916',
+  primary: '#1a1a1a',
+  secondary: '#2d2d2d',
   accent: '#B36233',
   highlight: '#D78C31',
-  background: '#F2E8C7',
+  background: '#0f0f0f',
+  surface: '#1c1c1c',
 };
 
 export const Colors = {
   light: {
-    text: MagiaInternaPalette.secondary,
+    text: '#ffffff',
     background: MagiaInternaPalette.background,
     tint: MagiaInternaPalette.accent,
-    icon: MagiaInternaPalette.primary,
-    tabIconDefault: MagiaInternaPalette.primary,
+    icon: '#ffffff',
+    tabIconDefault: '#cccccc',
     tabIconSelected: MagiaInternaPalette.accent,
+    surface: MagiaInternaPalette.surface,
   },
   dark: {
-    text: MagiaInternaPalette.background,
+    text: '#ffffff',
     background: MagiaInternaPalette.primary,
     tint: MagiaInternaPalette.highlight,
-    icon: MagiaInternaPalette.background,
-    tabIconDefault: MagiaInternaPalette.background,
+    icon: '#ffffff',
+    tabIconDefault: '#cccccc',
     tabIconSelected: MagiaInternaPalette.highlight,
+    surface: MagiaInternaPalette.surface,
   },
 };
 

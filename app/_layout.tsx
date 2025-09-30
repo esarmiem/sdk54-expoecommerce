@@ -38,7 +38,10 @@ export default function RootLayout() {
           <Stack.Screen name="product/[id]" options={{ title: 'Producto' }} />
           <Stack.Screen name="modal" options={{ presentation: 'modal', title: 'Modal' }} />
         </Stack>
-        <StatusBar style="auto" />
+        <StatusBar
+          style="light"
+          backgroundColor={colorScheme === 'dark' ? Colors.dark.background : Colors.light.background}
+        />
       </ThemeProvider>
     </CartProvider>
   );
