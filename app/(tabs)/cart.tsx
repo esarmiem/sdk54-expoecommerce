@@ -98,6 +98,7 @@ const styles = StyleSheet.create({
   },
   footer: {
     padding: 16,
+    marginBottom: 46,
     borderTopWidth: 1,
     borderTopColor: '#ccc',
     gap: 16,

@@ -28,7 +28,10 @@ const styles = StyleSheet.create({
     margin: 4,
     padding: 8,
     borderRadius: 8,
-    alignItems: 'center',
+    alignItems: 'flex-start',
+    backgroundColor: '#f9f9f9f9',
+    borderColor: '#000',
+    borderWidth: 1,
   },
   image: {
     width: '100%',
@@ -37,11 +40,11 @@ const styles = StyleSheet.create({
   },
   name: {
     marginTop: 8,
-    fontSize: 16,
+    fontSize: 20,
     fontWeight: 'bold',
   },
   price: {
     marginTop: 4,
-    fontSize: 14,
+    fontSize: 18,
   },
 });

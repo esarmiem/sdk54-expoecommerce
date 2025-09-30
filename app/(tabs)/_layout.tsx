@@ -1,35 +1,21 @@
-import { Tabs } from 'expo-router';
+import { NativeTabs, Icon, Label, Badge } from 'expo-router/unstable-native-tabs';
 import React from 'react';
-import { Ionicons } from '@expo/vector-icons';
-import { Colors } from '@/constants/theme';
 
 export default function TabLayout() {
   return (
-    <Tabs
-      screenOptions={{
-        headerShown: false,
-      }}>
-      <Tabs.Screen
-        name="index"
-        options={{
-          title: 'Tienda',
-          tabBarIcon: ({ color, size }) => <Ionicons name="basket" size={size} color={color} />,
-        }}
-      />
-      <Tabs.Screen
-        name="cart"
-        options={{
-          title: 'Carrito',
-          tabBarIcon: ({ color, size }) => <Ionicons name="cart" size={size} color={color} />,
-        }}
-      />
-      <Tabs.Screen
-        name="profile"
-        options={{
-          title: 'Perfil',
-          tabBarIcon: ({ color, size }) => <Ionicons name="person-circle" size={size} color={color} />,
-        }}
-      />
-    </Tabs>
+    <NativeTabs>
+      <NativeTabs.Trigger name="index">
+        <Icon sf="basket" drawable="shopping_basket" />
+        <Label>Tienda</Label>
+      </NativeTabs.Trigger>
+      <NativeTabs.Trigger name="cart">
+        <Icon sf="cart" drawable="shopping_cart" />
+        <Label>Carrito</Label>
+      </NativeTabs.Trigger>
+      <NativeTabs.Trigger name="profile">
+        <Icon sf="person.circle" drawable="account_circle" />
+        <Label>Perfil</Label>
+      </NativeTabs.Trigger>
+    </NativeTabs>
   );
 }
